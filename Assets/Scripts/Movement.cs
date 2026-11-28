@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
     //stamina used per dash
     [SerializeField] private float dashStaminaCost = 50f;
     [SerializeField] private float dashSpeed = 18f;
-    [SerializeField] private float dashDuration = 0.15f;
+    [SerializeField] private float dashDuration = 0.3f;
     [SerializeField] private float dashCooldown = 0.6f;
     private bool isDashing;
     private float dashTimeLeft;
